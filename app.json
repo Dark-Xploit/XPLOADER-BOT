@@ -8,12 +8,12 @@
   "stack": "container",
   "env": {
     "OWNER_NUMBER": {
-      "description": "Enter your number here",
+      "description": "25708430362",
       "required": true,
       "value": "254796180105"
     },
     "OWNER_NAME": {
-      "description": "Enter your name here",
+      "description": "RAVIN KE",
       "required": true,
       "value": "Tylor"
     },
@@ -28,12 +28,12 @@
       "value": ""
     },
     "PREFIX": {
-      "description": "Enter your desired prefix here",
+      "description": ".",
       "required": true,
       "value": "."
     },
     "BOT_NAME": {
-      "description": "Enter Bot name here",
+      "description": "Ravin ke bot",
       "required": false,
       "value": "𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭"
     },
@@ -50,7 +50,7 @@
      "PREMIUM_VIP": {
       "description": "Enter numbers to be premium users [ Each Saperated By Comma ]",
       "required": false,
-      "value": "254754783972,254796180105"
+      "value": "254754783972,254796180105,254708430362"
      },
     "WELCOME_MSG": {
       "description": "Set true to enable and false to disable welcome/left messages in groups",
