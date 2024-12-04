@@ -15,23 +15,23 @@ const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //=================================================//
 
-global.SESSION_ID = process.env.SESSION_ID || ''
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER~qygUhB7Q#TF6ke2gSbUp-aRjSS1g6dG9AaUaLDKaM_USJN62rVRE'
 //Enter your Xploader session id here; must start with XPLOADER~
 
 //=================================================//
 
-global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' 
+global.botname = process.env.BOT_NAME || 'smasher' 
 //Your desured bot name
 
 //=================================================//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254796180105'
+global.ownernumber = process.env.OWNER_NUMBER || 254704769281'
 //Type your number here
 
 //=================================================//
 
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'mohaa' 
 //Type your name here
 
 //=================================================//
@@ -67,7 +67,7 @@ global.xprefix = process.env.PREFIX || '.'
 
 //=================================================//
 
-global.premium = process.env.PREMIUM_VIP || ["254796180105"] 
+global.premium = process.env.PREMIUM_VIP || ["254704769281"] 
 //Premium User
 
 //=================================================//
@@ -76,18 +76,18 @@ global.hituet = 0
 
 //=================================================//
 
-global.autoswview = process.env.AUTO_STATUS_SEEN || false
+global.autoswview = process.env.AUTO_STATUS_SEEN || true
 //Set true to enable and false to disable auto status view
 
 //=================================================//
 
-global.autoreact = process.env.AUTO_STATUS_REACT || false
+global.autoreact = process.env.AUTO_STATUS_REACT || true
 //Set true to enable and false to disable auto status reaction
 //Auto status view will also be enabled when set to true!
 
 //=================================================//
 
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '😘'
 //Set the emoji that you want to be reacted to status
 
 //=================================================//
@@ -112,12 +112,12 @@ global.anticall = process.env.ANTI_CALL || false
 
 //=================================================//
 
-global.adminevent = process.env.ANNOUNCE_MSG  || false 
+global.adminevent = process.env.ANNOUNCE_MSG  || true 
 //show promote/demote messages
 
 //=================================================//
 
-global.groupevent = process.env.GROUP_ANNOUNCE_MSG || false 
+global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true 
 //show group changes message in group chat
 
 //=================================================//
