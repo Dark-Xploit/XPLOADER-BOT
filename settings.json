@@ -1,0 +1,33 @@
+{
+  "SESSION_ID": "",
+  "botname": "𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭",
+  "ownernumber": "254754783972",
+  "ownername": "Tylor",
+  "plink": "https://www.instagram.com/heyits_tylor?igsh=YzljYTk1ODg3Zg==",
+  "wm": "©𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭",
+  "packname": "Xploader",
+  "author": "Bot",
+  "urldb": "",
+  "xprefix": ".",
+  "hituet": 0,
+  "autoviewstatus": false,
+  "autoreactstatus": false,
+  "anticall": false,
+  "welcome": false,
+  "statusemoji": "🧡",
+  "timezones": "Africa/Nairobi",
+  "countrycode": "254",
+  "menustyle": "2",
+  "mess": {
+    "limit": "*Your limit is used up!*",
+    "nsfw": "*Tell the admin to enable NSFW first!*",
+    "done": "*Done*",
+    "error": "*Sorry, I cannot perform that action!*",
+    "success": "*©𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭*",
+    "premium": "*Only premium users can use this command!*",
+    "owner": "*Apologies, only my owner can use this command!*",
+    "group": "*This feature becomes available when you use it in a group!*",
+    "admin": "*You’ll unlock this feature with me as an admin!*",
+    "notadmin": "*This feature will work once you become an admin. A way of ensuring order!*"
+  }
+}
