@@ -1,11 +1,11 @@
   //project_name : XPLOADER
-// @author : TYLOR
-// @youtube : https://www.youtube.com/@heyits_tylor
-// @instagram : heyits_tylor
-// @telegram : t.me/heyits_tylor
-// @github : heyit-tylor
-// @tiktok : heyits_tylor
-// @whatsapp : +254754783972
+// @author : TAKE TEE
+// @youtube : https://www.youtube.com/@taketee
+// @instagram : taketee232
+// @telegram : t.me/taketee81
+// @github : taketee81
+// @tiktok : taketee81
+// @whatsapp : +23274448130 
 //*
 //* 
 //=================================================//
@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER~CzYVBQRD#78W8cdF3dLOt2hikgWOhTJkME9LkWiL6Rm7-GGY0ma0' 
 //Enter your Xploader session id here; must start with XPLOADER~
 
 //=================================================//
@@ -23,11 +23,11 @@ global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁�
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '23274448130'
 //Type your number here
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'Take Tee'
 //Type your name here
 
 //=================================================//
@@ -59,10 +59,10 @@ global.mode = process.env.MODE || 'public';
 //=================================================//
 global.hituet = 0 
 //=================================================//
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 
 //=================================================//
-global.autostatusreact = process.env.AUTO_STATUS_REACT || 'false'
+global.autostatusreact = process.env.AUTO_STATUS_REACT || 'true'
 
 //=================================================//
 global.anticall = process.env.ANTI_CALL || 'false'
@@ -71,15 +71,15 @@ global.anticall = process.env.ANTI_CALL || 'false'
 global.welcome = process.env.WELCOME_MSG || 'false'
 
 //=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '💚'
 //Set the emoji that you want to be reacted to status
 
 //=================================================//
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Africa/Sierra Leone" 
 //Don't edit this if you don't know!
 
 //=================================================//
-global.countrycode = process.env.COUNTRY_CODE || '254' 
+global.countrycode = process.env.COUNTRY_CODE || '232' 
 //set your country code for functionality of blockforeign and antiforeign commands
 
 //=================================================//
