@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'QUEENELISA;;;==wcsJ1cDVmWKZGVOZFULxERFpHOslHMjN2d0lTN4hUa4lEVyZWaygXezRkajoFRChFRs50dpwd=68282381749' 
 //Enter your Xploader session id here; must start with XPLOADER~
 
 //=================================================//
@@ -27,7 +27,7 @@ global.ownernumber = process.env.OWNER_NUMBER || '254754783972'
 //Type your number here
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || '+94718328286' 
 //Type your name here
 
 //=================================================//
