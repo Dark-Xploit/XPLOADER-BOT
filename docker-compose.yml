@@ -13,7 +13,7 @@ services:
     working_dir: /app
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000"]
-      interval: 1m
+      interval: 1s
       timeout: 10s
       retries: 3
 
@@ -23,6 +23,6 @@ services:
     restart: always
     healthcheck:
       test: ["CMD", "redis-cli", "PING"]
-      interval: 1m
+      interval: 1s
       timeout: 10s
       retries: 3
